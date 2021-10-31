@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.site{
+    background-image:url(./img/sky_cloud_high_blue.jpg);
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(75, 188, 237); */
+}
+
+.content{
+    display: grid;
+    justify-self: center;
+}
+
+.inscription{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.inscription_text{
+    font-size: 45px;
+    color: rgba(58, 12, 58, 0.872);
+    text-align: center;
+    
+}
+
+
+.registration{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.log, .pas{
+    margin: 20px;
+}
+
+span{
+    font-size: 20px;
+    color: rgba(58, 12, 58, 0.872);
+}
+
+.entrance_v{
+    font-size: 25px;
+    border: none;
+    background-color: rgba(222, 218, 218, 0);
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    align-self:center;
+    color: rgba(58, 12, 58, 0.872);
+    padding: 10px;
+    border-radius: 3px;
+
+    margin-top: 0;
+}
+
+.entrance_v:hover{
+    background-color: rgba(255, 255, 255, 0.303);
+    display: flex;
+    align-items: center;
+    align-self:center;
+    color: rgb(222, 153, 80);
+    transform: scale(1.1);
+}
+
+.entrance_v:active{
+    transform: scale(1);
+    color: salmon;
+}
+
+input{
+    border-radius: 3px;
+    margin: 0;
+    /* код из инета */
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(58, 12, 58);
+}
+
+.foot{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    text-align: center;
+    color: rgba(58, 12, 58, 0.872);
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: rgba(58, 12, 58, 0.872);
+}
+
+div > a:hover{
+    transform: scale(1.3);
+}
+
+div > a:active{
+    transform: scale(1);
+}
